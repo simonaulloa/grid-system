@@ -14,7 +14,7 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 100vh;
+	height: ;
 }
 
 .back .container{
@@ -27,4 +27,12 @@ header{
 	position: absolute;
 	top: 40%;
 	left: 35%;
+}
+
+.col-4 img{
+	/*max-width: 100% ajusta el ancho de tu imagen a la columna, esto siempre que la imagen sea mas grande*/
+	width: 100%; /*ajusta la imagen si es mas chica*/
+}
+.boton{
+	background-color: blue;
 }
